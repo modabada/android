@@ -1,11 +1,13 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
-namespace test1 {
+namespace MyApp {
     public partial class App: Application {
-
         public App() {
             InitializeComponent();
-            MainPage = new AppShell();
+
+            MainPage = new MainPage();
         }
 
         protected override void OnStart() {
