@@ -13,19 +13,24 @@ namespace MyApp {
             InitializeComponent();
         }
 
-        public void ButtonEvent(object sender, EventArgs e) {
+        public void ButtonEvent(object s, EventArgs e) {
+            Button sender = (s as Button);
             switch(B_cnt) {
                 case 0:
-                    (sender as Button).Text = "1st click!";
+                    sender.Text = "1st click!";
                     break;
                 case 1:
-                    ((Button) (sender)).Text = "2nd click!";
+                    sender.Text = "2nd click!";
                     break;
                 case 2:
-                    (sender as Button).Text = (sender is Button) ? "true" : "false";
+                    sender.Text = (sender is Button) ? "true" : "false";
+                    break;
+                case 3:
+                case 4:
+                    sender.Text = sender.ClassId;
                     break;
                 default:
-                    (sender as Button).Text = "Clicked";
+                    sender.Text = "Clicked";
                     break;
             }
             B_cnt++;

@@ -17,7 +17,7 @@
         </Label>
         <Label Text="test word" Padding="30,0,0,0" FontSize="20" TextColor="Aqua" BackgroundColor="Navy" Margin="30, 30, 30, 30"/>
         <Button Text="btn" Clicked="ButtonEvent" BorderColor="Black"/>
-        <Button Text="2" Clicked="ButtonEvent" BorderColor="Red" BorderWidth="2" />
+        <Button ClassId="number" Text="2" Clicked="ButtonEvent" BorderColor="Red" BorderWidth="2" />
     </StackLayout>
 
 </ContentPage>
