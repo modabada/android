@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace MyApp {
     public partial class App: Application {
@@ -8,6 +6,7 @@ namespace MyApp {
             InitializeComponent();
 
             MainPage = new MainPage();
+            //MainPage = new View.ColorListPage();
         }
 
         protected override void OnStart() {
