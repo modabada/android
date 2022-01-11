@@ -5,9 +5,9 @@
 
     <StackLayout>
         <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <ScrollView BackgroundColor="Cyan" VerticalScrollBarVisibility="Never" Scrolled="ButtonEvent" MinimumHeightRequest="60" HeightRequest="6000">
+        <ScrollView BackgroundColor="Cyan" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" Scrolled="ButtonEvent" MinimumHeightRequest="60" HeightRequest="60" Orientation="Both" WidthRequest="5" MinimumWidthRequest="5" Margin="30, 10, 30, 10">
             <StackLayout>
-                <Label Text="스크롤 뷰fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"/>
+                <Label Text="스크롤 뷰ff    ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"/>
                 <Label Text="스크롤 뷰"/>
                 <Label Text="스크롤 뷰"/>
                 <Label Text="스크롤 뷰"/>

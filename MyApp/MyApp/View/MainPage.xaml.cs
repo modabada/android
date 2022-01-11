@@ -33,7 +33,10 @@ namespace MyApp {
             }
             else {
                 Console.WriteLine(s.ToString());
-                (s as ScrollView).SetValue(YProperty, 20);
+                (s as ScrollView).Content = new Label {
+                    Text = "____________________________________________________________" +(s as ScrollView).ScrollX + "____________________________________________________________"
+                };
+                // (s as ScrollView).Content
             }
             B_cnt++;
         }
